@@ -18,7 +18,7 @@ const DropDown = () => {
   return (
     <Form.Select aria-label="Default select example">
         {data.map((item) => (
-            <option value="{item}">{item}</option>
+            <option name="supervisor" value="{item}">{item}</option>
         ))}
     </Form.Select>
   );
